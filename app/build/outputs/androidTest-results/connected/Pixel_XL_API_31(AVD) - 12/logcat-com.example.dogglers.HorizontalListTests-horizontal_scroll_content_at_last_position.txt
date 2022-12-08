@@ -1,0 +1,563 @@
+12-08 14:53:15.863  3580  3720 I TestRunner: started: horizontal_scroll_content_at_last_position(com.example.dogglers.HorizontalListTests)
+12-08 14:53:15.878  3580  3720 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-08 14:53:15.887  3789  3827 I BugleDatabasePerf: : took 68ms to executeInTransaction
+12-08 14:53:15.904  1400  1505 I Icing   : updateResources: need to parse yho{com.google.android.gms}
+12-08 14:53:15.906  1314  1484 W UnsafeUtil: platform method missing - proto runtime falling back to safer methods: java.lang.NoSuchMethodException: sun.misc.Unsafe.copyMemory [class java.lang.Object, long, class java.lang.Object, long, long]
+12-08 14:53:15.907  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-08 14:53:15.928  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:15.940   566  2893 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10109/2044, android.os.BinderProxy@18c0a0f)
+12-08 14:53:15.942   566  2893 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10109/2044, android.os.BinderProxy@a4b0a9c)
+12-08 14:53:15.942   566  2893 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10109/2044, android.os.BinderProxy@fd73ca5)
+12-08 14:53:15.942   566  2418 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10109/2044, android.os.BinderProxy@fbd487a)
+12-08 14:53:15.947   566   629 I libprocessgroup: Successfully killed process cgroup uid 10109 pid 2044 in 48ms
+12-08 14:53:15.950   873   873 V MediaPlayerList: onActiveSessionsChanged: number of controllers: 0
+12-08 14:53:15.950   566   823 D ConnectivityService: releasing NetworkRequest [ REQUEST id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10109 RequestorUid: 10109 RequestorPkg: com.google.android.apps.youtube.music] ] (release request)
+12-08 14:53:15.957   349   349 I Zygote  : Process 2044 exited due to signal 9 (Killed)
+12-08 14:53:15.962   566   823 D ConnectivityService: releasing NetworkRequest [ REQUEST id=45, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10109 RequestorUid: 10109 RequestorPkg: com.google.android.apps.youtube.music] ] (release request)
+12-08 14:53:15.966  2523  2523 I A       : Refusing EXCLUSIVE task 22, it is already pending. Try again in 279 seconds.
+12-08 14:53:15.970   880   972 D SplashScreenView: Build android.window.SplashScreenView{3342330 V.E...... ......ID 0,0-0,0}
+12-08 14:53:15.970   880   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+12-08 14:53:15.970   880   972 D SplashScreenView: Branding: view: android.view.View{70bcba9 G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+12-08 14:53:15.972   566   823 D ConnectivityService: releasing NetworkRequest [ REQUEST id=50, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10109 RequestorUid: 10109 RequestorPkg: com.google.android.apps.youtube.music] ] (release request)
+12-08 14:53:16.008  2523  2664 W A       : Failed to handle FACS broadcast.
+12-08 14:53:16.008  2523  2664 W A       : com.google.apps.tiktok.account.data.ai: This is not a google account
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.android.apps.search.googleapp.permissions.udcdataservice.ulr.n.apply(SourceFile:2)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.apps.tiktok.tracing.di.apply(SourceFile:2)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.common.w.a.f.d(SourceFile:2)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.common.w.a.h.run(SourceFile:9)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.android.libraries.g.ab.run(SourceFile:1)
+12-08 14:53:16.008  2523  2664 W A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-08 14:53:16.008  2523  2664 W A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.android.libraries.g.n.run(SourceFile:2)
+12-08 14:53:16.008  2523  2664 W A       : 	at com.google.android.libraries.g.d.run(SourceFile:2)
+12-08 14:53:16.008  2523  2664 W A       : 	at java.lang.Thread.run(Thread.java:920)
+12-08 14:53:16.028  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: PRE_ON_CREATE
+12-08 14:53:16.028   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ece10000]
+12-08 14:53:16.028  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.033  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:16.034  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:16.048   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3ece10000 0x3edc20000]
+12-08 14:53:16.048  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: CREATED
+12-08 14:53:16.048  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.049  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: STARTED
+12-08 14:53:16.053   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3edc20000 0x3eea30000]
+12-08 14:53:16.054  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.057  1400  3238 I FastPair: FastPair: provider is called with method [getCardList]
+12-08 14:53:16.059  1586  1586 I Dialer  : VvmTaskReceiver - task received
+12-08 14:53:16.059  1586  1586 I Dialer  : VvmTaskReceiver - scheduling new job
+12-08 14:53:16.061  1586  1586 I Dialer  : TaskSchedulerJobService - scheduling job with 1 tasks
+12-08 14:53:16.062  1586  1586 I Dialer  : TaskSchedulerJobService - merging job with 1 existing tasks
+12-08 14:53:16.062  1586  1586 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-08 14:53:16.063  1586  1586 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+12-08 14:53:16.064  1586  1586 I Dialer  : TaskQueue.add - duplicated task added
+12-08 14:53:16.072  1586  1586 I Dialer  : TaskSchedulerJobService - canceling existing job.
+12-08 14:53:16.075  1586  1586 I Dialer  : TaskSchedulerJobService - running job instantly.
+12-08 14:53:16.076  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: RESUMED
+12-08 14:53:16.077  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.087  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: PAUSED
+12-08 14:53:16.088  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.109  1586  1586 I Dialer  : TaskSchedulerJobService - job 1 scheduled
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:8
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:72
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:88
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missing SF jank callback for vsyncId: 5753
+12-08 14:53:16.126  1197  3121 W FrameTracker: Missed App frame:8
+12-08 14:53:16.131  1197  2487 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-9 - not enough time since last trigger
+12-08 14:53:16.140  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: PRE_ON_CREATE
+12-08 14:53:16.141  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-08 14:53:16.178   880   991 D EGL_emulation: app_time_stats: avg=215.59ms min=25.12ms max=598.64ms count=5
+12-08 14:53:16.184  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: CREATED
+12-08 14:53:16.184  3580  3580 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.HorizontalListActivity@ed21985
+12-08 14:53:16.188  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: STARTED
+12-08 14:53:16.188  3580  3580 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.HorizontalListActivity@ed21985
+12-08 14:53:16.193  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: RESUMED
+12-08 14:53:16.195  3580  3580 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.HorizontalListActivity@ed21985
+12-08 14:53:16.219  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: STOPPED
+12-08 14:53:16.220  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:16.230  3580  3597 I xample.doggler: JIT allocated 77KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+12-08 14:53:16.286  1278  2161 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:16.287  3924  3957 W RankingPostProcessor: A card with invalid score: content://com.android.settings.slices/intent/screen_timeout
+12-08 14:53:16.288  3924  3957 W RankingPostProcessor: A card with invalid score: content://com.google.android.settings.intelligence.modules.contextualcards.slices/suggestion/com.android.settings/com.android.settings.notification.zen.ZenSuggestionActivity
+12-08 14:53:16.297   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3eea30000 0x3ef840000]
+12-08 14:53:16.308   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3f1054000 0x3f1e64000]
+12-08 14:53:16.320   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3f1e67000 0x3f2c77000]
+12-08 14:53:16.349   566   612 I ActivityTaskManager: Displayed com.example.dogglers/.HorizontalListActivity: +423ms
+12-08 14:53:16.390  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+12-08 14:53:16.390  2743  2743 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+12-08 14:53:16.402  1400  1505 I Icing   : Indexing done com.google.android.gms-apps
+12-08 14:53:16.412  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-08 14:53:16.412  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-08 14:53:16.412  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-08 14:53:16.413  1612  1612 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-08 14:53:16.414  1278  3969 E GCM     : Missing checkin config file
+12-08 14:53:16.414  1278  3969 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-08 14:53:16.414  1278  3969 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-08 14:53:16.415  1400  1505 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+12-08 14:53:16.444  1278  3969 W WakeLock: GCM_HB_ALARM counter does not exist
+12-08 14:53:16.453  1278  2161 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:16.461  1278  2161 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:16.476  1278  3971 E GCM     : Missing checkin config file
+12-08 14:53:16.476  1278  3971 W GCM     : GCM FAILED TO INITIALIZE - missing checkin
+12-08 14:53:16.476  1278  3971 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+12-08 14:53:16.476  1278  3971 W WakeLock: GCM_HB_ALARM counter does not exist
+12-08 14:53:16.481   566   823 D ConnectivityService: reportNetworkConnectivity(100, false) by 10099
+12-08 14:53:16.483  1076  2311 D NetworkMonitor/100: Forcing reevaluation for UID 10099. Dns signal count: 0
+12-08 14:53:16.499  3580  3580 I ViewInteraction: Performing 'scroll RecyclerView to position: 5' action on view view.getId() is <2131230949/com.example.dogglers:id/horizontal_recycler_view>
+12-08 14:53:16.532  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+12-08 14:53:16.532  2743  2743 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+12-08 14:53:16.552  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-08 14:53:16.602   348  3977 D resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+12-08 14:53:16.602   348  3977 I resolv  : resolv_populate_res_for_net: netid=100
+12-08 14:53:16.602   348  3977 D resolv  : res_nsend
+12-08 14:53:16.602   348  3977 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.602   348  3977 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c58fc56eb0
+12-08 14:53:16.606   348  3978 D resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+12-08 14:53:16.606   348  3978 I resolv  : resolv_populate_res_for_net: netid=100
+12-08 14:53:16.606   348  3978 D resolv  : res_nsend
+12-08 14:53:16.606   348  3978 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.606   348  3978 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c58fc57af0
+12-08 14:53:16.623   348  3979 D resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+12-08 14:53:16.624   348  3979 I resolv  : resolv_populate_res_for_net: netid=100
+12-08 14:53:16.624   348  3979 D resolv  : res_nsend
+12-08 14:53:16.624   348  3979 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.624   348  3979 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c57fc5c8d0
+12-08 14:53:16.630   873   873 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+12-08 14:53:16.630   873   873 D MediaPlayerList: Name of package changed: com.google.android.apps.messaging
+12-08 14:53:16.631   566   622 E system_server: No package ID 7f found for ID 0x7f080207.
+12-08 14:53:16.631   566   622 E system_server: No package ID 7f found for ID 0x7f140841.
+12-08 14:53:16.631   566   622 E system_server: No package ID 7f found for ID 0x7f140841.
+12-08 14:53:16.631   566   622 E system_server: No package ID 7f found for ID 0x7f140840.
+12-08 14:53:16.638  1076  3976 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 41ms OK 142.250.201.3,2a00:1450:4006:80e::2003
+12-08 14:53:16.640   348  3981 D resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+12-08 14:53:16.640   348  3981 I resolv  : resolv_populate_res_for_net: netid=100
+12-08 14:53:16.640   348  3981 D resolv  : res_nsend
+12-08 14:53:16.640   348  3981 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.640   348  3981 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c56fc5b0e0
+12-08 14:53:16.643  2184  2184 I ContactsUpgradeReceiver: Creating or opening contacts database
+12-08 14:53:16.649  3580  3580 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bella"
+12-08 14:53:16.656   566   707 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS |
+12-08 14:53:16.656   566   702 I RoleService: Granting default roles...
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=38 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:74)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.access(ForwardingOs.java:131)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:7716)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.File.exists(File.java:813)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:743)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ContextImpl.ensurePrivateDirExists(ContextImpl.java:734)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ContextImpl.getPreferencesDir(ContextImpl.java:690)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ContextImpl.getSharedPreferencesPath(ContextImpl.java:915)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ContextImpl.getSharedPreferences(ContextImpl.java:537)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:196)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.content.ContextWrapper.getSharedPreferences(ContextWrapper.java:196)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:55)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=37 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java:275)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.getInt(SharedPreferencesImpl.java:320)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:56)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=28 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:74)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.access(ForwardingOs.java:131)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.access(ActivityThread.java:7716)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.File.exists(File.java:813)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:738)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=28 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:268)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7725)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.IoBridge.open(IoBridge.java:561)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:702)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:793)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=28 ms: android.os.strictmode.DiskWriteViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1615)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:271)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:567)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7725)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.IoBridge.open(IoBridge.java:561)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:702)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:793)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.659  2184  2184 D StrictMode: StrictMode policy violation; ~duration=28 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.fstat(BlockGuardOs.java:193)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.fstat(ForwardingOs.java:264)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at libcore.io.IoBridge.open(IoBridge.java:564)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:702)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:793)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.659  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.664   887  1072 I PermissionControllerServiceImpl: Updating user sensitive for uid 10095
+12-08 14:53:16.670   348  3982 D resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+12-08 14:53:16.670   348  3982 D resolv  : resolv_getaddrinfo: explore_fqdn(): ai_family=0 ai_socktype=1 ai_protocol=6
+12-08 14:53:16.678   348  3983 D resolv  : doQuery: (1, 28)
+12-08 14:53:16.678   348  3983 D resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-08 14:53:16.678   348  3983 D resolv  : res_nsend
+12-08 14:53:16.678   348  3983 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.678   348  3983 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c58fc56eb0
+12-08 14:53:16.678   348  3983 D resolv  : doQuery: rcode=0, ancount=1
+12-08 14:53:16.678   566   579 I system_server: NativeAlloc concurrent copying GC freed 583346(18MB) AllocSpace objects, 21(708KB) LOS objects, 50% free, 19MB/39MB, paused 1.425ms,35us total 896.272ms
+12-08 14:53:16.689   348  3984 D resolv  : doQuery: (1, 1)
+12-08 14:53:16.689   348  3984 D resolv  : res_nmkquery: (QUERY, IN, A)
+12-08 14:53:16.689   348  3984 D resolv  : res_nsend
+12-08 14:53:16.689   348  3984 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.689   348  3984 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c58fc57af0
+12-08 14:53:16.689   348  3984 D resolv  : doQuery: rcode=0, ancount=1
+12-08 14:53:16.692  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+12-08 14:53:16.693  2743  2743 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+12-08 14:53:16.693  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: PAUSED
+12-08 14:53:16.693  3580  3580 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.HorizontalListActivity@ed21985
+12-08 14:53:16.696   348   411 I netd    : trafficSwapActiveStatsMap() <17.58ms>
+12-08 14:53:16.698  2184  2184 D StrictMode: StrictMode policy violation; ~duration=28 ms: android.os.strictmode.DiskWriteViolation
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1615)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:446)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.write(ForwardingOs.java:951)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at libcore.io.IoBridge.write(IoBridge.java:649)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at java.io.FileOutputStream.write(FileOutputStream.java:401)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:253)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:274)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:219)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.util.XmlSerializerWrapper.endDocument(XmlSerializerWrapper.java:68)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:408)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:803)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.698  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.699  2184  2184 D StrictMode: StrictMode policy violation; ~duration=17 ms: android.os.strictmode.DiskWriteViolation
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1615)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.chmod(BlockGuardOs.java:81)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.chmod(ForwardingOs.java:168)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.system.Os.chmod(Os.java:121)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.FileUtils.setPermissions(FileUtils.java:168)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ContextImpl.setFilePermissionsFromMode(ContextImpl.java:3243)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:812)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.699  2184  2184 D StrictMode: StrictMode policy violation; ~duration=17 ms: android.os.strictmode.DiskReadViolation
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1659)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:418)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.stat(ForwardingOs.java:853)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.stat(ActivityThread.java:7739)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.system.Os.stat(Os.java:919)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:819)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.699  2184  2184 D StrictMode: StrictMode policy violation; ~duration=17 ms: android.os.strictmode.DiskWriteViolation
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1615)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.BlockGuardOs.remove(BlockGuardOs.java:364)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at libcore.io.ForwardingOs.remove(ForwardingOs.java:678)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread$AndroidOs.remove(ActivityThread.java:7757)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at java.io.UnixFileSystem.delete(UnixFileSystem.java:331)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at java.io.File.delete(File.java:1035)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:833)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$900(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:672)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:691)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:59)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:604)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.providers.contacts.ContactsUpgradeReceiver.onReceive(ContactsUpgradeReceiver.java:76)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:4308)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.access$1600(ActivityThread.java:247)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2064)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:16.699  2184  2184 D StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:16.701   348   411 I netd    : tetherGetStats() -> {[]} <3.11ms>
+12-08 14:53:16.747  1076  3975 D NetworkMonitor/100: PROBE_DNS www.google.com 144ms OK 142.251.37.228,2a00:1450:4006:813::2004
+12-08 14:53:16.762   873   873 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+12-08 14:53:16.762   887  1072 I PermissionControllerServiceImpl: Updating user sensitive for uid 10112
+12-08 14:53:16.763   873   873 D MediaPlayerList: Name of package changed: com.google.android.syncadapters.contacts
+12-08 14:53:16.769   566  2420 W InputManager-JNI: Input channel object 'df86cd2 Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+12-08 14:53:16.772   348  3986 D resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+12-08 14:53:16.772   348  3986 D resolv  : resolv_getaddrinfo: explore_fqdn(): ai_family=0 ai_socktype=1 ai_protocol=6
+12-08 14:53:16.777  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: PRE_ON_CREATE
+12-08 14:53:16.778  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:16.791  1141  1141 D CarrierSvcBindHelper: No carrier app for: 0
+12-08 14:53:16.791   348  3987 D resolv  : doQuery: (1, 28)
+12-08 14:53:16.791   348  3987 D resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-08 14:53:16.791   348  3987 D resolv  : res_nsend
+12-08 14:53:16.791   348  3987 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.792   348  3987 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c57fc5c8d0
+12-08 14:53:16.792   348  3987 D resolv  : doQuery: rcode=0, ancount=1
+12-08 14:53:16.794   348  3988 D resolv  : doQuery: (1, 1)
+12-08 14:53:16.794   348  3988 D resolv  : res_nmkquery: (QUERY, IN, A)
+12-08 14:53:16.795   348  3988 D resolv  : res_nsend
+12-08 14:53:16.795   348  3988 I resolv  : resolv_cache_lookup: lookup
+12-08 14:53:16.795   348  3988 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x79c56fc5b0e0
+12-08 14:53:16.795   348  3988 D resolv  : doQuery: rcode=0, ancount=1
+12-08 14:53:16.809   880   880 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:16.812   566   814 W system_server: Long monitor contention with owner NetworkStats (812) at void com.android.server.net.NetworkStatsService.performPoll(int)(NetworkStatsService.java:1506) waiters=0 in void com.android.server.net.NetworkStatsService.setUidForeground(int, boolean) for 126ms
+12-08 14:53:16.813   348   411 I netd    : bandwidthSetGlobalAlert(2097152) <0.43ms>
+12-08 14:53:16.816   887  1104 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.contacts
+12-08 14:53:16.818   880   880 D InterruptionStateProvider: No heads up: unimportant notification: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:16.839  1400  1505 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+12-08 14:53:16.842  1400  1505 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-08 14:53:16.873  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-08 14:53:16.883  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: CREATED
+12-08 14:53:16.893  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:16.901   887  1104 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+12-08 14:53:16.906  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: STARTED
+12-08 14:53:16.907  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:16.910  1076  3976 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=251ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 08 Dec 2022 12:53:17 GMT], X-Android-Received-Millis=[1670503996905], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1670503996801]}
+12-08 14:53:16.921  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: RESUMED
+12-08 14:53:16.923  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:16.929  2629  2651 I ProxyGalProvider: QueryGalProvider in Legacy provider.
+12-08 14:53:16.940   566   707 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS |
+12-08 14:53:16.941  1400  1505 I Icing   : Indexing done com.google.android.gms-apps
+12-08 14:53:16.987  1141  1141 D CarrierSvcBindHelper: No carrier app for: 0
+12-08 14:53:16.987  1141  1141 D ImsResolver: maybeAddedImsService, packageName: com.google.android.apps.messaging
+12-08 14:53:16.989  1141  1141 D ImsResolver: maybeAddedImsService, packageName: com.google.android.syncadapters.contacts
+12-08 14:53:17.007   348   411 I netd    : bandwidthRemoveInterfaceQuota(eth0) <1.83ms>
+12-08 14:53:17.010   348   411 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <1.88ms>
+12-08 14:53:17.011   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ece10000]
+12-08 14:53:17.022   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3ece10000 0x3edc20000]
+12-08 14:53:17.029   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3edc20000 0x3eea30000]
+12-08 14:53:17.048   566   707 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS |
+12-08 14:53:17.049   566   707 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS |
+12-08 14:53:17.059   873   873 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+12-08 14:53:17.059   873   873 D MediaPlayerList: Name of package changed: com.google.android.gms
+12-08 14:53:17.061   873   873 V MediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+12-08 14:53:17.061   873   873 D MediaPlayerList: Name of package changed: com.google.android.settings.intelligence
+12-08 14:53:17.086  1400  2742 W PeopleGalProvider: Not enabled to outside of GmsCore.
+12-08 14:53:17.086  1400  2742 I PeopleGalProvider: Method 0 completed.
+12-08 14:53:17.089  2184  3033 I ContactDirectoryManager: Directory provider com.google.android.gms(com.google.android.gms.people.gal.provider) returned a NULL cursor.
+12-08 14:53:17.101  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:17.117  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: STOPPED
+12-08 14:53:17.117  3580  3580 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.HorizontalListActivity@ed21985
+12-08 14:53:17.119  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@ed21985 in: DESTROYED
+12-08 14:53:17.119  3580  3580 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-08 14:53:17.124  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:17.130   880  1061 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/android
+12-08 14:53:17.136  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:17.138   566  1014 W InputManager-JNI: Input channel object 'cc82e2e com.example.dogglers/com.example.dogglers.HorizontalListActivity (client)' was disposed without first being removed with the input manager!
+12-08 14:53:17.178  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: PAUSED
+12-08 14:53:17.178  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:17.184   348   411 I netd    : trafficSwapActiveStatsMap() <51.88ms>
+12-08 14:53:17.199  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193 in: DESTROYED
+12-08 14:53:17.199  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9988193
+12-08 14:53:17.201   349   349 D Zygote  : Forked child process 3994
+12-08 14:53:17.205   348   411 I netd    : tetherGetStats() -> {[]} <2.98ms>
+12-08 14:53:17.221  3994  3994 W oid.documentsu: Unexpected CPU variant for X86 using defaults: x86_64
+12-08 14:53:17.233   887  1072 I PermissionControllerServiceImpl: Updating user sensitive for uid 10099
+12-08 14:53:17.239   566   612 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +427ms
+12-08 14:53:17.241  1076  3975 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 time=422ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Thu, 08 Dec 2022 12:53:17 GMT], X-Android-Received-Millis=[1670503997188], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1670503997083]}
+12-08 14:53:17.251   444   462 I adbd    : jdwp connection from 3994
+12-08 14:53:17.255   887  1072 I PermissionControllerServiceImpl: Updating user sensitive for uid 10094
+12-08 14:53:17.265  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516 in: PRE_ON_CREATE
+12-08 14:53:17.265  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516
+12-08 14:53:17.273   887  1104 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+12-08 14:53:17.292   566   622 W system_server: Long monitor contention with owner Binder:566_11 (2418) at void com.android.server.pm.ShortcutService.scheduleSaveInner(int)(ShortcutService.java:1180) waiters=0 in void com.android.server.pm.ShortcutService.lambda$notifyListeners$2$ShortcutService(int, java.lang.String) for 223ms
+12-08 14:53:17.309  1278  3712 I Nearby  : Start ble scanning from NearbyDirect:BluetoothAdapterWrapper [CONTEXT service_id=49 ]
+12-08 14:53:17.321   887  1104 W Role    : Cannot get ApplicationInfo for default holder: com.google.android.as
+12-08 14:53:17.326  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516 in: CREATED
+12-08 14:53:17.327  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516
+12-08 14:53:17.331  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516 in: STARTED
+12-08 14:53:17.331  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516
+12-08 14:53:17.337  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516 in: RESUMED
+12-08 14:53:17.338  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516
+12-08 14:53:17.343   348   411 I netd    : bandwidthRemoveInterfaceQuota(eth0) <1.46ms>
+12-08 14:53:17.344  1278  3712 D BluetoothAdapter: isLeEnabled(): ON
+12-08 14:53:17.349   348   411 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <1.96ms>
+12-08 14:53:17.356  1076  3974 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=763ms
+12-08 14:53:17.383  1141  1141 D CarrierSvcBindHelper: No carrier app for: 0
+12-08 14:53:17.384   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3eea30000 0x3ef840000]
+12-08 14:53:17.395   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3f1054000 0x3f1e64000]
+12-08 14:53:17.400   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3f1e67000 0x3f2c77000]
+12-08 14:53:17.407  3994  3994 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10070; state: DISABLED
+12-08 14:53:17.412   873  1354 I bt_stack: [INFO:gatt_api.cc(1042)] GATT_Deregister gatt_if=6
+12-08 14:53:17.413  1278  3712 I Nearby  : M hardware scan: 1 clients, scanMode= OPPORTUNISTIC, callback type= ALL_MATCHES [CONTEXT service_id=49 ]
+12-08 14:53:17.413  1278  3712 D BluetoothAdapter: isLeEnabled(): ON
+12-08 14:53:17.428   566   823 D ConnectivityService: [100 WIFI] validation passed
+12-08 14:53:17.437   566   612 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +319ms
+12-08 14:53:17.481   880   880 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:17.481   880   880 D InterruptionStateProvider: No heads up: unimportant notification: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:17.499  1278  3532 I Fitness : OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.google.android.apps.messaging flg=0x45000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+12-08 14:53:17.500  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-08 14:53:17.500   873  1354 I bluetooth: system/bt/stack/gatt/gatt_api.cc:1019 GATT_Register: Allocated name:GattClient uuid:f5f5b208-09c8-4e7b-d4e2-2789c38580a2 gatt_if:6 eatt_support:0
+12-08 14:53:17.502  1278  1522 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=6 mScannerId=0
+12-08 14:53:17.502  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-08 14:53:17.507  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: STOPPED
+12-08 14:53:17.508  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:17.512  1612  1612 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-08 14:53:17.526  1400  1505 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-08 14:53:17.528   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3ece10000 0x3ed710000]
+12-08 14:53:17.537  3994  3994 V GraphicsEnvironment: ANGLE Developer option for 'com.google.android.documentsui' set to: 'default'
+12-08 14:53:17.538  3994  3994 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+12-08 14:53:17.549  3154  3330 W SystemServiceRegistry: No service published for: persistent_data_block
+12-08 14:53:17.562  3994  3994 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:17.562  3994  3994 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:17.575  1400  1505 I Icing   : Indexing done com.google.android.gms-apps
+12-08 14:53:17.578  1141  1141 D CarrierSvcBindHelper: No carrier app for: 0
+12-08 14:53:17.578  1141  1141 D ImsResolver: maybeAddedImsService, packageName: com.google.android.gms
+12-08 14:53:17.590  1278  3304 W .gms.persisten: Long monitor contention with owner NearbyDirectMain (3712) at void acta.b(abwp, com.google.android.gms.nearby.common.ble.BleSettings)(:com.google.android.gms@214218056@21.42.18 (190800-410302452):4) waiters=0 in void acta.d(int) for 148ms
+12-08 14:53:17.591  1141  1141 D ImsResolver: maybeAddedImsService, packageName: com.google.android.settings.intelligence
+12-08 14:53:17.614  3154  3330 D HostConnection: createUnique: call
+12-08 14:53:17.615  3154  3330 D HostConnection: HostConnection::get() New Host Connection established 0x72e091e57f50, tid 3330
+12-08 14:53:17.628   566   702 I RoleService: Granting default roles...
+12-08 14:53:17.634  3154  3330 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1
+12-08 14:53:17.635  1400  3224 I SettingsChangedOp: FSA1 package status changed.
+12-08 14:53:17.644  3154  3330 D EGL_emulation: eglCreateContext: 0x72e091e571d0: maj 3 min 1 rcv 4
+12-08 14:53:17.658  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43 in: DESTROYED
+12-08 14:53:17.658  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e1d5d43
+12-08 14:53:17.666  1197  1210 I s.nexuslaunche: NativeAlloc concurrent copying GC freed 23162(1034KB) AllocSpace objects, 5(488KB) LOS objects, 49% free, 4455KB/8910KB, paused 2.132ms,16us total 104.108ms
+12-08 14:53:17.671   566  2892 W InputManager-JNI: Input channel object 'cf320a3 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+12-08 14:53:17.682  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516 in: PAUSED
+12-08 14:53:17.682  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@372a516
+12-08 14:53:17.686   880   991 D EGL_emulation: app_time_stats: avg=300.75ms min=24.59ms max=716.33ms count=5
+12-08 14:53:17.681  3154  3330 D EGL_emulation: eglMakeCurrent: 0x72e091e571d0: ver 3 1 (tinfo 0x72e2b07d2200) (first time)
+12-08 14:53:17.707  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.707  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.707  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.707  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.707  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.708  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.708  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.708  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.708  1197  1212 W System  : A resource failed to call release.
+12-08 14:53:17.710  1400  3224 I FsaEntryPointSwitcher: setting component enabled=1 for com.google.android.gms.people.sync.focus.ContactsSyncAdapterService
+12-08 14:53:17.714  1400  3224 I FsaEntryPointSwitcher: Setting component enabled succeeds.
+12-08 14:53:17.715  1400  3224 I FsaEntryPointSwitcher: setting component enabled=2 for com.google.android.syncadapters.contacts.ContactsSyncAdapterService
+12-08 14:53:17.715  3580  3720 I TestRunner: finished: horizontal_scroll_content_at_last_position(com.example.dogglers.HorizontalListTests)

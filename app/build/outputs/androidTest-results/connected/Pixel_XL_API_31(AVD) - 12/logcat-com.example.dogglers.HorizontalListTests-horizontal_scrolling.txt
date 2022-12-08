@@ -1,0 +1,258 @@
+12-08 14:53:13.280  3580  3720 I TestRunner: started: horizontal_scrolling(com.example.dogglers.HorizontalListTests)
+12-08 14:53:13.283  1278  3037 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+12-08 14:53:13.283  1278  3037 I FontLog : Query [Noto Color Emoji Compat] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+12-08 14:53:13.289  3789  3821 I CarrierServices: [40] ajre.a: Initializing Carrier Services Library.
+12-08 14:53:13.291  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b8c74c6 in: DESTROYED
+12-08 14:53:13.312   566  2893 W InputManager-JNI: Input channel object '3fdee11 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+12-08 14:53:13.333  3580  3720 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-08 14:53:13.335  1400  1400 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+12-08 14:53:13.351   348   411 I netd    : trafficSwapActiveStatsMap() <22.76ms>
+12-08 14:53:13.354   348   411 I netd    : tetherGetStats() -> {[]} <1.75ms>
+12-08 14:53:13.378   348   411 I netd    : bandwidthSetGlobalAlert(2097152) <0.16ms>
+12-08 14:53:13.382  1400  1413 I gle.android.gm: Background young concurrent copying GC freed 208885(11MB) AllocSpace objects, 176(8836KB) LOS objects, 64% free, 10MB/29MB, paused 67us,36us total 848.364ms
+12-08 14:53:13.389   348   411 I netd    : bandwidthRemoveInterfaceQuota(eth0) <3.19ms>
+12-08 14:53:13.396   348   411 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <2.43ms>
+12-08 14:53:13.397   880   972 D SplashScreenView: Build android.window.SplashScreenView{292c332 V.E...... ......ID 0,0-0,0}
+12-08 14:53:13.397   880   972 D SplashScreenView: Icon: view: null drawable: null size: 0
+12-08 14:53:13.397   880   972 D SplashScreenView: Branding: view: android.view.View{aa28883 G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+12-08 14:53:13.408  3154  3286 D EGL_emulation: eglCreateContext: 0x72e091e58cd0: maj 3 min 1 rcv 4
+12-08 14:53:13.453  3789  3821 I CarrierServices: [40] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+12-08 14:53:13.455  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: PRE_ON_CREATE
+12-08 14:53:13.457  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:13.468   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ece10000]
+12-08 14:53:13.477   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3ece10000 0x3edc20000]
+12-08 14:53:13.478  1400  1505 I Icing   : Usage reports ok 2, Failed Usage reports 0, indexed 0, rejected 0
+12-08 14:53:13.484  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: CREATED
+12-08 14:53:13.485  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:13.489   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3edc20000 0x3eea30000]
+12-08 14:53:13.492  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: STARTED
+12-08 14:53:13.492  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:13.518  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: RESUMED
+12-08 14:53:13.518  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:16
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed SF frame:32
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missed App frame:80
+12-08 14:53:13.528  1197  3121 W FrameTracker: Missing SF jank callback for vsyncId: 5394
+12-08 14:53:13.528  1197  2487 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-9 - not enough time since last trigger
+12-08 14:53:13.532   348   411 I netd    : trafficSwapActiveStatsMap() <14.46ms>
+12-08 14:53:13.538   348   411 I netd    : tetherGetStats() -> {[]} <3.52ms>
+12-08 14:53:13.545  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: PAUSED
+12-08 14:53:13.546  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:13.558   348   411 I netd    : bandwidthRemoveInterfaceQuota(eth0) <2.33ms>
+12-08 14:53:13.569   348   411 I netd    : bandwidthSetInterfaceQuota(eth0, 9223372036854775807) <1.41ms>
+12-08 14:53:13.610  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: PRE_ON_CREATE
+12-08 14:53:13.610  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-08 14:53:13.632   349   349 D Zygote  : Forked child process 3850
+12-08 14:53:13.653  3850  3850 W ackageinstalle: Unexpected CPU variant for X86 using defaults: x86_64
+12-08 14:53:13.669  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: CREATED
+12-08 14:53:13.669  3580  3580 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.HorizontalListActivity@7920e38
+12-08 14:53:13.681  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: STARTED
+12-08 14:53:13.681  3580  3580 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.HorizontalListActivity@7920e38
+12-08 14:53:13.684  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: RESUMED
+12-08 14:53:13.684  3580  3580 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.HorizontalListActivity@7920e38
+12-08 14:53:13.694  3789  3833 I BugleDataModel: DatabaseHelperUtils: insertSelfParticipant. participantId: 1, selfParticipantId: 1, subId: -1
+12-08 14:53:13.701   444   462 I adbd    : jdwp connection from 3850
+12-08 14:53:13.720  3789  3833 I CarrierServices: [50] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+12-08 14:53:13.751  3850  3850 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10058; state: ENABLED
+12-08 14:53:13.783  3154  3286 D EGL_emulation: eglCreateContext: 0x72e091e58cd0: maj 3 min 1 rcv 4
+12-08 14:53:13.802   880   991 D EGL_emulation: app_time_stats: avg=103.56ms min=25.50ms max=689.77ms count=10
+12-08 14:53:13.812   880   991 D EGL_emulation: app_time_stats: avg=102.46ms min=18.38ms max=683.48ms count=10
+12-08 14:53:13.846   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3eea30000 0x3ef840000]
+12-08 14:53:13.856  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:13.858   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3f1054000 0x3f1e64000]
+12-08 14:53:13.864   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3f1e67000 0x3f2c77000]
+12-08 14:53:13.886  3789  3833 I Bugle   : TelephonySyncManager: setting full sync. inProgress: true, before: false
+12-08 14:53:13.899  3789  3821 I CarrierServices: [40] ajre.b: Initializing Carrier Services Logging.
+12-08 14:53:13.908  3789  3833 I Bugle   : TelephonySyncManager: Starting full sync, reason: 7
+12-08 14:53:13.931  3850  3850 V GraphicsEnvironment: ANGLE Developer option for 'com.google.android.packageinstaller' set to: 'default'
+12-08 14:53:13.931  3850  3850 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+12-08 14:53:13.949  3850  3850 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:13.950  3850  3850 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:13.981  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-08 14:53:13.981  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-08 14:53:13.990  3580  3580 I ViewInteraction: Performing 'fast swipe' action on view view.getId() is <2131230949/com.example.dogglers:id/horizontal_recycler_view>
+12-08 14:53:13.996  1612  1612 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-08 14:53:14.057   349   349 I Zygote  : Process 1983 exited due to signal 9 (Killed)
+12-08 14:53:14.078   566   629 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 1983 in 0ms
+12-08 14:53:14.079   566   629 I libprocessgroup: Successfully killed process cgroup uid 10080 pid 1902 in 0ms
+12-08 14:53:14.097  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.104  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.114   349   349 I Zygote  : Process 1902 exited due to signal 9 (Killed)
+12-08 14:53:14.136  1400  1505 W Icing   : No valid account for uploading user actions
+12-08 14:53:14.140  1278  1278 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.herrevad.services.LightweightNetworkQualityAndroidService.START pkg=com.google.android.gms }
+12-08 14:53:14.152  3789  3840 I GmsAccounts: GMSCore Auth returned 0 accounts.
+12-08 14:53:14.152  3789  3840 I GmsAccounts: GoogleOwnersProvider returned 0 accounts.
+12-08 14:53:14.153  1586  1586 I Dialer  : VvmTaskReceiver - task received
+12-08 14:53:14.153  1586  1586 I Dialer  : VvmTaskReceiver - scheduling new job
+12-08 14:53:14.153  1586  1586 I Dialer  : TaskSchedulerJobService - scheduling job with 1 tasks
+12-08 14:53:14.154  1586  1586 I Dialer  : TaskSchedulerJobService - running job instantly.
+12-08 14:53:14.156  1400  2851 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+12-08 14:53:14.161   566  2421 D ConnectivityService: requestNetwork for uid/pid:1000/566 asUid: 10098 activeRequest: null callbackRequest: 63 [NetworkRequest [ REQUEST id=64, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10098 RequestorUid: 1000 RequestorPkg: android] ]] callback flags: 0 priority: 2147483647
+12-08 14:53:14.164  1586  1586 I Dialer  : TaskSchedulerJobService - job 0 scheduled
+12-08 14:53:14.166   566   823 D ConnectivityService: NetReassign [64 : null → 100]
+12-08 14:53:14.168  1400  1400 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START cmp=com.google.android.gms/.chimera.GmsApiService }
+12-08 14:53:14.183   566   816 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=64, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10098 RequestorUid: 1000 RequestorPkg: android] ]
+12-08 14:53:14.187   566   816 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=64, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10098 RequestorUid: 1000 RequestorPkg: android] ]
+12-08 14:53:14.196   566   816 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=64, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10098 RequestorUid: 1000 RequestorPkg: android] ]
+12-08 14:53:14.240  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: STOPPED
+12-08 14:53:14.241  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:14.250   566  2891 W InputManager-JNI: Input channel object 'e1b5353 Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+12-08 14:53:14.296  3789  3823 I Bugle   : TelephonyManagerFactory: Returning per-subscription TelephonyManager (>= N) subscription{id:1}
+12-08 14:53:14.298  1400  1505 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+12-08 14:53:14.314  1400  1505 W Icing   : No valid account for uploading user actions
+12-08 14:53:14.333  1400  1505 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+12-08 14:53:14.340  3789  3821 I LogSaver: LogSaver new instance with filename: carrier_services
+12-08 14:53:14.342  1400  1400 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.connectedhome.service.START pkg=com.google.android.gms }
+12-08 14:53:14.351  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.370  3789  3821 I BugleBackup: Registering preference change listener for "bugle".
+12-08 14:53:14.405  3580  3580 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Frankie"
+12-08 14:53:14.411  3789  3789 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.SyncMessagesAction-SyncMessagesAction:91919003
+12-08 14:53:14.411  3789  3789 W BugleDataModel: android.app.BackgroundServiceStartNotAllowedException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{59111d0 u0a95 CEM  idle change:cached procs:0 seq(0,0,0)}
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1862)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1818)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:776)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.j(PG:1)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:1)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at nae.j(PG:5)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at naa.run(PG:1)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at aypj.run(PG:2)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:14.411  3789  3789 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:14.424  3789  3821 W BugleRcs: couldn't get package info for carrier services package with name com.google.android.ims
+12-08 14:53:14.432  3789  3821 W BugleRcs: android.content.pm.PackageManager$NameNotFoundException: com.google.android.ims
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:241)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:213)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at zod.<init>(PG:7)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at zod.a(PG:1)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at tae.a(PG:5)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at kbf.run(PG:2)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at aypj.run(PG:2)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at bcic.c(PG:1)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at bchf.run(PG:4)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at bcid.run(PG:1)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at aosz.run(PG:1)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at aosl.run(PG:2)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at aorz.run(PG:2)
+12-08 14:53:14.432  3789  3821 W BugleRcs: 	at java.lang.Thread.run(Thread.java:920)
+12-08 14:53:14.456  3789  3821 I Bugle   : TelephonySyncManager: setting full sync. inProgress: true, before: true
+12-08 14:53:14.461  1779  1789 I ocess.gservice: Background concurrent copying GC freed 48890(1650KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 2491KB/4982KB, paused 25us,10us total 550.193ms
+12-08 14:53:14.465  3789  3821 I Bugle   : TelephonySyncManager: Starting full sync, reason: 2
+12-08 14:53:14.467  3789  3837 W Bugle   : TelephonySyncManager: Resuming full sync but no sync id was found.
+12-08 14:53:14.483  3789  3827 I BugleRcsEngine: [44] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+12-08 14:53:14.492  1278  3844 W .gms.persisten: Long monitor contention with owner netscheduler-queue-handler (3535) at int algw.l(algo, wzi)(:com.google.android.gms@214218056@21.42.18 (190800-410302452):56) waiters=0 in int algw.r(alei) for 173ms
+12-08 14:53:14.502  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.502  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: PAUSED
+12-08 14:53:14.502  3580  3580 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.HorizontalListActivity@7920e38
+12-08 14:53:14.513  1278  3203 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.537  1278  2161 I FontLog : Using directory in FlatBuffer format [CONTEXT service_id=132 ]
+12-08 14:53:14.538  3789  3827 I BugleRcsEngine: [44] akyy.e: RcsProvisioningManager: combineConfigurationWithAvailability, simId = redacted-pii:sim_id[0-chars], hasConfig = false
+12-08 14:53:14.538  3789  3827 W BugleRcsEngine: [44] akyy.h: RcsProvisioningManager: ProvisioningEngineAdapter not found for SIM redacted-pii:sim_id[0-chars]
+12-08 14:53:14.541  3789  3789 W BugleDataModel: ActionExecutorImpl: Action started execution, but we can't guarantee it will complete, the app may be killed. Action: class com.google.android.apps.messaging.shared.datamodel.action.SyncMessagesAction-SyncMessagesAction:91919004
+12-08 14:53:14.541  3789  3789 W BugleDataModel: android.app.BackgroundServiceStartNotAllowedException: Not allowed to start service Intent { cmp=com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService }: app is in background uid UidRecord{59111d0 u0a95 CEM  idle change:cached procs:0 seq(0,0,0)}
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1862)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.app.ContextImpl.startService(ContextImpl.java:1818)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.content.ContextWrapper.startService(ContextWrapper.java:776)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.j(PG:1)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at com.google.android.apps.messaging.shared.datamodel.action.execution.ActionExecutorImpl.a(PG:1)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at nae.j(PG:5)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at naa.run(PG:1)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at aypj.run(PG:2)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.os.Handler.handleCallback(Handler.java:938)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.os.Looper.loopOnce(Looper.java:201)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.os.Looper.loop(Looper.java:288)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at android.app.ActivityThread.main(ActivityThread.java:7839)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at java.lang.reflect.Method.invoke(Native Method)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+12-08 14:53:14.541  3789  3789 W BugleDataModel: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)
+12-08 14:53:14.542  1278  2990 W .gms.persisten: Long monitor contention with owner highpool[0] (2161) at void wgc.run()(:com.google.android.gms@214218056@21.42.18 (190800-410302452):78) waiters=0 in wfm wgd.e() for 4.214s
+12-08 14:53:14.546  1278  3314 W .gms.persisten: Long monitor contention with owner highpool[0] (2161) at void wgc.run()(:com.google.android.gms@214218056@21.42.18 (190800-410302452):78) waiters=1 in wfm wgd.e() for 2.150s
+12-08 14:53:14.547  1278  3037 W .gms.persisten: Long monitor contention with owner highpool[0] (2161) at void wgc.run()(:com.google.android.gms@214218056@21.42.18 (190800-410302452):78) waiters=2 in wfm wgd.e() for 1.262s
+12-08 14:53:14.548  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca in: PRE_ON_CREATE
+12-08 14:53:14.549  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca
+12-08 14:53:14.552  3789  3827 I BugleRcsEngine: [44] akbw.l: Reinitialize CSLib Flags: com.google.android.ims.library
+12-08 14:53:14.569  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca in: CREATED
+12-08 14:53:14.570  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca
+12-08 14:53:14.571  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca in: STARTED
+12-08 14:53:14.571  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca
+12-08 14:53:14.572  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-08 14:53:14.579  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca in: RESUMED
+12-08 14:53:14.580  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca
+12-08 14:53:14.595  1400  2851 W GmsTaskScheduler: ScheduledCheckinGmsTaskService is not available. This may cause the task to be lost.
+12-08 14:53:14.598   349   349 D Zygote  : Forked child process 3893
+12-08 14:53:14.600  3789  3821 I BugleDataModel: SyncMessagesAction: Starting batch for messages. lowerBoundTimeMillis: -1, upperBoundTimeMillis: 1670503998909, maxMessagesToUpdate: 80, maxMessagesToScan: 4000, batchId: a8bbccdc-d0fb-4469-849b-c4f97ea62730, syncId: 60ca27f2-58ed-4776-826d-8f5fa9544ff1
+12-08 14:53:14.606  3893  3893 W viders.calenda: Unexpected CPU variant for X86 using defaults: x86_64
+12-08 14:53:14.613   444   462 I adbd    : jdwp connection from 3893
+12-08 14:53:14.642   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ece10000]
+12-08 14:53:14.673   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3ece10000 0x3edc20000]
+12-08 14:53:14.690  3893  3893 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10059; state: ENABLED
+12-08 14:53:14.695   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3edc20000 0x3eea30000]
+12-08 14:53:14.717  1400  2851 I Checkin : [EventLogChimeraService] Accumulating logs since 0
+12-08 14:53:14.720   566   612 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +1s315ms
+12-08 14:53:14.742  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: STOPPED
+12-08 14:53:14.743  3580  3580 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.HorizontalListActivity@7920e38
+12-08 14:53:14.745  3893  3893 V GraphicsEnvironment: ANGLE Developer option for 'com.android.providers.calendar' set to: 'default'
+12-08 14:53:14.745  3893  3893 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+12-08 14:53:14.751  3893  3893 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:14.752  3893  3893 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-08 14:53:14.782  3154  3286 W SystemServiceRegistry: No service published for: persistent_data_block
+12-08 14:53:14.783  1400  1505 W Icing   : No valid account for uploading user actions
+12-08 14:53:14.806  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-08 14:53:14.807  1612  1612 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-08 14:53:14.814  1612  1612 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-08 14:53:14.814  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.816  3580  3580 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.HorizontalListActivity@7920e38 in: DESTROYED
+12-08 14:53:14.817  3580  3580 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-08 14:53:14.818  1400  1505 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+12-08 14:53:14.824   566  2891 W InputManager-JNI: Input channel object 'e8af04e com.example.dogglers/com.example.dogglers.HorizontalListActivity (client)' was disposed without first being removed with the input manager!
+12-08 14:53:14.840  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca in: PAUSED
+12-08 14:53:14.840  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9c620ca
+12-08 14:53:14.841   566   629 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 2321 in 0ms
+12-08 14:53:14.849  1141  1466 D MmsSmsDatabaseHelper: onCreate: Creating all SMS-MMS tables.
+12-08 14:53:14.853  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e in: DESTROYED
+12-08 14:53:14.853  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@cdf569e
+12-08 14:53:14.861  3893  3893 I CalendarDatabaseHelper: Bootstrapping database
+12-08 14:53:14.863  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b in: PRE_ON_CREATE
+12-08 14:53:14.864  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b
+12-08 14:53:14.865  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.882   349   349 I Zygote  : Process 2321 exited due to signal 9 (Killed)
+12-08 14:53:14.898  1400  1505 W Icing   : No valid account for uploading user actions
+12-08 14:53:14.901  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b in: CREATED
+12-08 14:53:14.901  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b
+12-08 14:53:14.905  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b in: STARTED
+12-08 14:53:14.905  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b
+12-08 14:53:14.906  1141  1466 D MmsSmsDatabaseHelper: onCreate: broadcasting ACTION_SMS_MMS_DB_CREATED
+12-08 14:53:14.912  3580  3580 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b in: RESUMED
+12-08 14:53:14.913  3580  3580 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.HorizontalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e20ea1b
+12-08 14:53:14.925  3893  3893 I CalendarProvider2: Created com.android.providers.calendar.CalendarAlarmManager@9e517fd(com.android.providers.calendar.CalendarProvider2@e887cf2)
+12-08 14:53:14.925  1400  1505 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+12-08 14:53:14.934  1278  3835 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+12-08 14:53:14.948  3893  3893 I CalendarUpgradeReceiver: Creating or opening calendar database
+12-08 14:53:14.955   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3eea30000 0x3ef840000]
+12-08 14:53:14.962   365   365 D goldfish-address-space: claimShared: Ask to claim region [0x3f1054000 0x3f1e64000]
+12-08 14:53:14.964  2743  2743 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+12-08 14:53:14.964   566   629 I libprocessgroup: Successfully killed process cgroup uid 10130 pid 2524 in 0ms
+12-08 14:53:14.964  2743  2743 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+12-08 14:53:14.968   365   383 D goldfish-address-space: claimShared: Ask to claim region [0x3f1e67000 0x3f2c77000]
+12-08 14:53:14.985   880   880 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:14.986   880   880 D InterruptionStateProvider: No heads up: unimportant notification: 0|android|13|PreBootBroadcaster|1000
+12-08 14:53:14.995  1400  1505 I Icing   : updateResources: need to parse yho{com.google.android.googlequicksearchbox}
+12-08 14:53:14.997  1278  1278 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.contextmanager.service.ContextManagerService.START pkg=com.google.android.gms }
+12-08 14:53:14.997  3580  3720 I TestRunner: finished: horizontal_scrolling(com.example.dogglers.HorizontalListTests)
